@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+	-->
+<?xml-model href="file:/Users/Benjamin/Desktop/english/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Adventures of Telemachus, the Son of Ulysses</title>
+            <author>François Fénelon</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <name>Benjamin Lowry</name>
+            </respStmt>
+            <respStmt>
+               <resp>Translated into English by</resp>
+               <name>Mr. Des Maizeaux, F.R.S.</name>
+            </respStmt>
+            <respStmt>
+               <resp>Printed by</resp>
+               <name>C. Hitch</name>
+            </respStmt>
+            <respStmt>
+               <resp>Printed by</resp>
+               <name>L. Hawes</name>
+            </respStmt>
+            <respStmt>
+               <resp>Printed by</resp>
+               <name>T. Osborne</name>
+            </respStmt>
+            <respStmt>
+               <resp>Printed by</resp>
+               <name>J. Beecroft</name>
+            </respStmt>
+            <respStmt>
+               <resp>Printed by</resp>
+               <name>John Rivington</name>
+            </respStmt>
+            <respStmt>
+               <resp>Printed by</resp>
+               <name>R. Baldwin</name>
+            </respStmt>
+            <respStmt>
+               <resp>Printed by</resp>
+               <name>J. Ward</name>
+            </respStmt>
+            <respStmt>
+               <resp>Printed by</resp>
+               <name>S. Crowder and Co.</name>
+            </respStmt>
+            <respStmt>
+               <resp>Printed by</resp>
+               <name>B. Law</name>
+            </respStmt>
+            <respStmt>
+               <resp>Printed by</resp>
+               <name>T. Longham</name>
+            </respStmt>
+            <respStmt>
+               <resp>Printed by</resp>
+               <name>T. Field</name>
+            </respStmt>
+            <respStmt>
+               <resp>Printed by</resp>
+               <name>T. Caslon</name>
+            </respStmt>
+            <respStmt>
+               <resp>Printed by</resp>
+               <name>C. and R. Ward</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>SMU DeGolyer Library</publisher>
+            <pubPlace>SMU DeGolyer Library</pubPlace>
+            <date>2025-04-10</date>
+            <authority>ENGL 3318 student</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>The Adventures of Telemachus, the Son of Ulysses, 1760, SMU DeGolyer Library</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition xml:id="indented" scheme="css">text-indent: 3em;</rendition>
+            <rendition xml:id="centered" scheme="css">text-align: center;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart>THE</titlePart>
+               <titlePart>ADVENTURES</titlePart>
+               <titlePart>OF</titlePart>
+               <titlePart>TELEMACHUS,</titlePart>
+               <titlePart>THE</titlePart>
+               <titlePart>SON of ULYSSES.</titlePart>
+               <titlePart>BY THE</titlePart>
+               <titlePart>ARCHBISHOP of CAMBRAY<note place="foot" n="1">François Fénelon, lived
+                  1651-1715, term was 1695-1715</note></titlePart>
+               <titlePart>Translated into English by</titlePart>
+               <titlePart>Mr. DES MAIZEAUX, F.R.S.</titlePart>
+               <!-- TODO: line?-->
+               <titlePart>The Third Edition, corrected.</titlePart>
+               <!-- TODO: line?-->
+               <lb />
+               <titlePart rend="small expanded">LONDON:</titlePart>
+               <titlePart rend="small">Printed for C. Hitch and L. Hawes, T. Osborne,</titlePart>
+               <titlePart rend="small">J. Beecroft, John Rivington, R. Baldwin,</titlePart>
+               <titlePart rend="small">J. Ward, S. Crowder and Co. B. Law,</titlePart>
+               <titlePart rend="small">T. Longman, T. Field, T. Caslon, and C. and</titlePart>
+               <titlePart rend="small">R. Ward.</titlePart>
+               <titlePart rend="small">MDCCLX</titlePart>
+            </docTitle>
+
+         </titlePage>
+      </front>
+      <body>
+         <div>
+            <pb style="hidden" n="i" />
+            <!-- TODO: top decoration -->
+            <head />
+            <head rend="center">A</head>
+            <head rend="center">DISCOURSE<note n="*" place="foot">his discourse has been
+                  revised, altered and improved in many plaves, according to corrections
+                  communicated by Mr. Ramsay, who is the author of it.</note></head>
+            <head rend="center">OF</head>
+            <head rend="center">EPIC POETRY,</head>
+            <head rend="center">AND OF THE</head>
+            <head rend="center">EXCELLENCE</head>
+            <head rend="center">Of the POEM of</head>
+            <head rend="center">TELEMACHUS</head>
+
+            <p>
+               <note type="inset" place="right">The origin and end of poetry.</note>
+               <hi rend="large">
+               I</hi>F we could relish naked truth, she would not want, to gain our love, the
+               ornaments which imagination lends her; but her pure and delicate light does not
+               sufficiently sooth the senses of man; she requires an attention which is too
+               troublesome to his natural levity. To instruct him, it is necessary to give him not
+               only pure ideas which enlighten his mind; but also images which strike his senses,
+               and keep his eyes stedfastly fixed on the truth. This is the source of eloquence, of
+               poetry, and of all the sciences which belong to the imagination: It is the weakness
+               of man which makes these sciences necessary. The plain and unchangeable beauty of
+               virtue does not always affect him; it is not sufficient to show him truth; she must
+               be painted amiable <note n="(a)" place="foot">Omne tuli punctum, qui miscuit utile
+               dulci, Lectorem delectando, paritorque menendo. Hor. Art. Poet</note>
+               <l />
+            </p>
+            <p rendition="#indented">
+               We shall examine the poem of Telemachus in these two views, of instructing and
+               pleasing; and we shall endeavor to show that the author has instructed more
+            </p>
+            <fw type="footer" place="middle">a</fw>
+            <fw type="footer" place="right">than</fw>
+            <!-- TODO: positioning? -->
+            <pb n="ii" rend="align(left)" />
+            <p> than the ancients by the sublimity of his moral, and that he has pleased as much as
+               they by imitating all their beauties. <l />
+            </p>
+            <p rendition="#indented">
+               <note type="inset" place="left">Two forts of heroic poetry.</note>There are two ways
+               of instructing men in order to render them good: The first, by showing them the
+               deformity of vice, and its fatal consequences, which is the chief design of tragedy:
+               The second, by discovering the beauty of virtue and its happy end, which is the
+               proper character of the Epopœa or epic poem. The passions which belong to the former,
+               are terror and pity; those which agree to the latter, are admiration and love. In
+               one, the actors speak; in the other, the poet makes the narration. <l />
+            </p>
+            <p rendition="#indented">
+               <note type="inset" place="left">The definition and division of epic poetry</note> The
+               epic poem may be define, <hi rend="italic">A fable related by a poet to raise the
+               admiration, and inspire the love of virtue, by the representation of the action of
+                  a hero favoured of heaven, who executes a great design by triumphing over all
+               obstacles that oppose it. There are therefore three things in the Epopœa, the action,
+               the moral, and the poetry.</hi>
+               <l />
+            </p>
+         </div>
+         <pb n="1" style="hidden" />
+         <!-- TODO: top bar decoration -->
+         <div>
+            <head />
+            <head rend="center">THE</head>
+            <head rend="center">ADVENTURES</head>
+            <head rend="center">OF</head>
+            <head rend="center">TELEMACHUS,</head>
+            <head rend="center">Son of ULYSSES.</head>
+            <!-- TODO: line -->
+            <head rend="center">BOOK the FIRST</head>
+            <!-- TODO: line -->
+            <p>
+               <l rend="center">
+                  <hi rend="bold">The <hi rend="expanded">ARGUMENT</hi></hi>
+               </l>
+               <hi rend="italic">Telemachus guided by Minerva,
+                  in the shape of Mentor, gets on shore, after a shipwreck, in the island of the
+                  Goddess Calypso, who was still bewailing the departure of Ulysses. The Goddess
+                  gives him a kind reception, conceives a passion for him, offers him immortality,
+                  and desires of him an account of his adventures. He relates to her his voyage to
+                  Pylos and Lacedæmon; his shipwreck on the coast of Sicily; the danger he was in of
+                  being sacrificed to the manes of Anchises; the alliance which Mentor and he gave
+                  Aceltes in an incursion of Barbarians, and the care which this King took to
+                  requite their service, by giving them a Tyrian ship to return to their own
+                  country.</hi>
+               <lb />
+               <lb />
+            </p>
+            <p>
+               <hi rend="large">C</hi>ALYPSO could not be comforted for the departure of Ulysses: in
+               her grief she found herself unhappy by being immortal. Her grotto no longer echoed
+               with the sweet music of her voice: the nymphs who attended her dared not speak to
+               her. She often walked alone on the flowery turf, with which an eternal spring
+               surrounded her island: but these beautiful scenes, far from alleviating her sorrow,
+               did but recall to her the sad remembrance of Ulysses, whom she there had seen so many
+               times with her. She often stood motion- </p>
+            <fw type="footer" place="middle">b 3</fw>
+            <fw type="footer" place="right">less</fw>
+
+            <pb n="2" rend="left" />
+            <fw type="header" rend="bold" place="center">TELEMACHUS</fw>
+            <fw type="header" place="left">Book I.</fw>
+            <p>
+               less on the sea shore, which she watered with her tears, and was continually turned
+               towards the part where the ship of Ulysses, ploughing the waves, had disappeared from
+               her eyes. On a sudden she perceived the fragments of a vessel that had just been
+               wrecked, rowers benches broken in pieces, oars scattered here and there on the sand,
+               a rudder, a mast and cordage floating on the shore. Then she descried two men at a
+               distance; one of them seemed in years, the other, though young, resembled Ulysses. He
+               had his sweet and noble aspect, with his stature and majestic port. The Goddess knew
+               him to be Telemachus, the son of that hero: but though the Gods far surpass all men
+               in knowledge, she could not discover who the venerable person was by whom Telemachus
+               was attended; because the superior Gods conceal from the inferior whatever they
+               please; and Minerva, who accompanied Telemachus in the shape of Mentor, would not be
+               known by Calypso. Mean time Calypso rejoiced at a wreck which brought the son of
+               Ulysses, so like his father, into her island. She advances towards him, and without
+               seeming to know who he is, What inspires you, says she to him, with the presumption
+               to land in my island? Know young stranger, that none enters my empire unpunished. She
+               endeavored to hide under these threatening words the joy of her heart, which in spite
+               of her appeared in her face.
+            </p>
+            <p rendition="#indented">
+               Telemachus answered, O! whoever you are, whether a mortal or a
+               Goddess (though none can see and not take you for a deity) can you be insensible to
+               the misfortunes of a son, who, seeking his father through perils of winds and waves,
+               has seen his vessel split against your rocks? Who then is the father you are in quest
+               of, replied the Goddess? He is called Ulysses, said Telemachus; he is one of the
+               kings, who have, after a ten years siege, subverted the famous Troy. His name was
+               renowned through all Greece and Asia for his valour in combat, and yet more for his
+               wisdom in council. Now wandering o'er the whole extent of seas, he runs through all
+               the most terrible dangers. His country seems to fly before him. Penelope his wife,
+            </p>
+            <fw type="footer" place="right">and</fw>
+
+            <pb n="3" rend="right" />
+            <fw type="header" rend="bold" place="center">TELEMACHUS</fw>
+            <fw type="header" place="right">Book I.</fw>
+            <p>
+               and I his son, have lost all hopes of ever seeing him again, I am running the same
+               hazards as he, to learn where he is. But, what do I say! perhaps he is now buried in
+               the profound abysses of the sea. Pity our woes; and, O Goddess! if you know what the
+               destinies have done either to save or destroy Ulysses, deign to inform his son
+               Telemachus of it.
+            </p>
+            <p rendition="#indented">
+               Calypso, surprized and moved at finding so much wisdom and
+               eloquence in such blooming youth, could not satisfy her eyes with looking upon him,
+               and remained silent. At length she said to him, We will inform you, Telemachus, what
+               has befallen your father; but the history of it is long, and it is time for you to
+               refresh yourself after your toils. Come into the place of my abode, where I will
+               receive you as my son: come, you shall be my comfort in this solitude; and I will
+               procure you happiness, if you know how to enjoy it.
+            </p>
+            <p rendition="#indented">
+               Telemachus followed the goddess, incircled by a crowd of young
+               nymphs, above whom she raised her whole head, as a large oak in a forest rases its
+               thick branches above all the surrounding trees. He admired the lustre of her beauty,
+               the rich purple of her long flowing robe, her hair tied with graceful negligence
+               behind the fire which flashed from her eyes, and the mildness which tempered its
+               vivacity. Mentor, with downcast eyes and a modest silence, followed Telemachus.
+            </p>
+            <p rendition="#indented">
+               They came to the entrance of Calypso's grotto, where
+               Telemachus was surprized to see, with an appearance of rural simplicity, all that can
+               charm the eye. There was seen indeed neither gold, not silver, nor marble, nor
+               columns, not pictures, not statues; the grotto was hewn out of the rock, in arches
+               lined with shells and pebbles; its tapestry was a young vine which extended its
+               pliant branches equally on all sides. Gentle Zephirs here maintained, in spite of the
+               beams of the Sun, a delightful coolness. fountains sweetly purling thro' meadows sown
+               with amaranths and violets, formed, in various places, baths as pure and clear as
+               chrystal. A thousand springing flowers enamelled the verdant car-
+            </p>
+            <fw type="footer" place="middle">b 4</fw>
+            <fw type="footer" place="left">pets</fw>
+
+            <pb n="4" rend="left" />
+            <fw type="header" rend="bold" place="center">TELEMACHUS</fw>
+            <fw type="header" place="right">Book I.</fw>
+            <p>
+               pets which surrounded the grotto. There was found a whole wood of those tufted trees
+               which beat apples of gold, and whose blossoms, which are renewed in all seasons, shed
+               the sweetest of all perfumes. This wood seemed to crown those beautiful meads, and
+               formed a shade which the rays of the Sun could not penetrate. Here nothing was ever
+               heard but the warbling of birds, or the murmurs of a brook, which, rushing from the
+               top of a rock, fell in large and frothy streams, and fled across the meadow.
+            </p>
+            <p rendition="#indented"> The Goddess's grotto was on the declivity of a hill, from
+               whence one beheld the sea, sometimes clear and smooth as glass, sometimes idly
+               irritated against the rocks on which it broke bellowing, and swelling its waves like
+               mountains. From another side was seen a river, in which were islands bordered with
+               blooming limes, and lofty poplars, which raised their haughty heads even to the
+               clouds. The several channels, which formed those islands, seemed sporting in the
+               plain. Some rolled their limpid waters with rapidity; some had a peaceful and sleepy
+               stream; others by long windings ran back again, to re-ascend as it were to their
+               source, and seemed not to have power to leave these enchanting borders. At a distance
+               were seen hills and mountains, which lost themselves in the clouds, and formed, by
+               their fantastic figures, as delightful an horizon as the eye could wish to behold.
+               The neighbouring mountains, where covered with verdant vine branches, hanging in
+               festoons<note place="foot" n="2">a chain or garland of flowers, leaves, or
+                  ribbons, hung in a curve as a
+                  decoration.</note>; the grapes, brighter than purple, could not conceal themselves
+               under the leaves, and the vine was over-loaded with its fruit. The fig, the olive,
+               the pomgranate, and all other trees, over-spread the plain, and made it a large
+               garden. </p>
+            <p rendition="#indented">
+               Calypso, having shown Telemachus, all these natural beauties,
+               said to him, Repose yourself, your garments are wet, it is time for you to change
+               them; afterwards I will see you again, and relate things with which your heart will
+               be touched. The Goddess then caused him and Mentor to enter into the most secret and
+               retired part of a grotto next to that in which she herself resided.
+            </p>
+            <fw type="footer" place="right">In</fw>
+
+            <pb n="5" rend="right" />
+            <fw type="header" rend="bold" place="center">TELEMACHUS</fw>
+            <fw type="header" place="left">Book I.</fw>
+            <p>
+               In this apartment the nymphs had taken care to light a great fire of cedar-wood,
+               whose fragrant odour diffused itself on all sides, and had left vestments in it for
+               their new guests. Telemachus, seeing they had alloted him a tunic of fine wool, whose
+               whiteness eclipsed that of snow, and a purple robe embroidered with gold, took the
+               pleasure which is natural to youth, in viewing their magnificence.
+            </p>
+            <p rendition="#indented">
+               Mentor said to him in a grave tone, Are these, Telemachus, the
+               thoughts which ought to possess the heart of the son of Ulysses? Think rather of
+               supporting your father's reputation and of conquering the fortune which persecutes
+               you. A young man who loves to deck himself vainly like a woman, is unworthy of wisdom
+               and glory: glory is due only to a soul which knows to bear pain, and trample
+               pleasures under foot.
+            </p>
+            <p rendition="#indented">
+               Telemachus answered sighing, May the Gods destroy me rather than suffer luxury and
+               voluptuousness to take possession of my heart: no, no, the son of Ulysses shall never
+               be vanquished by the charms of a soft and an effiminate life. But how gracious is
+               heaven in directing us, after our shipwreck, to this Goddess, or this mortal, who
+               loads us with benefits!
+            </p>
+            <p rendition="#indented">
+               Fear, replied Mentor, lest she load you with evils: fear her sweet, deceitful words
+               more than the rocks which dashed your vessel in pieces. Shipwreck and death are less
+               fatal than pleasures which attack virtue. Take heed not to credit what she will
+               relate to you. Youth is presumptuous; it hopes every thing from itself; though frail,
+               it thinks itself all-sufficient, and that it has never any thing to fear; it is
+               credulous and unwary. Be sure not to regard Calypso's sweet and flattering words,
+               which will insinuate themselves like a serpent under flowers. Suspect their hidden
+               poison, mistrust yourself, and always wait for my advice.
+            </p>
+            <p rendition="#indented">
+               After this, they returned to Calypso, who was waiting for them. The nymphs with
+               braided hair and white vestments immediately served up a plain repast, but exquisite
+               with regard to its taste and elegance. There was no flesh but that of birds which
+               they had
+            </p>
+            <fw type="footer" place="middle">b 5</fw>
+            <fw type="footer" place="right">taken</fw>
+
+            <pb n="6" rend="left" />
+            <fw type="header" rend="bold" place="center">TELEMACHUS</fw>
+            <fw type="header" place="right">Book I.</fw>
+            <p>
+               taken in their nets, or of beasts which they had killed with their arrows in the
+               chace. Wine, more delicious than nectar, flowed from large silver vases into golden
+               cups crowned with flowers. There were brought in baskets all the fruits which the
+               spring promises, and autumn lavishes on the earth. At the same time four young nymphs
+               began to sing. They first sung the war of the Gods against the giants; then the loves
+               of Jupiter and Semele; the birth of Bacchus, and his education under old Silenus; the
+               race of Atalanta and Hippomenes, who was conqueror by means of the golden apples
+               gathered in the gardens of Hesperides: at last the Trojan war was likewise sung, and
+               the combats and wisdom of Ulysses extolled to the skies. The chief of the nymphs,
+               whose name was Leucothoë, joined the harmony of her lyre to the sweet voices of all
+               the others. When Telemachus heard the name of his father, the tears which ran down
+               his cheeks gave a new lustre to his beauty. But as Calypso perceived that he could
+               not eat, and that he was seized with grief, she made a sign to the nymphs; upon which
+               they sung the battle of the Centaurs with the Lapithæ, and the descent of Orpheus to
+               hell to fetch his dear Eurydice from thence.
+            </p>
+            <p rendition="#indented">
+               When the repast was ended, the Goddess took Telemachus aside, and bespoke him thus:
+               You see, son of the great Ulysses, with what favour I receive you; I am immortal; no
+               man can enter this island without being punished for his temerity; and even you
+               shipwreck would not save you from my indignation, if I did not moreover love you.
+               Your father had the same good fortune as you; but alas! he was not wise enough to
+               turn it to his advantage. I detained him a long while in this island; he might here
+               have lived with me in a state of immortality; but the blind passion of returning to
+               his wretched country, made him reject all these advantages. You see all he has lost
+               for Ithaca, which he will never see again. He was resolved to leave me; he departed,
+               and I was revenged by the tempest: his vessel, having long been the sport of the
+               winds, was buried in the waves. Make a right use of so sad an ex-
+            </p>
+            <fw type="footer" place="right">ample.</fw>
+
+            <pb n="7" rend="right" />
+            <fw type="header" rend="bold" place="center">TELEMACHUS</fw>
+            <fw type="header" place="left">Book I.</fw>
+            <p>
+               ample. After his shipwreck you can have no hopes of either seeing him again, or of
+               ever reigning in the island of Ithaca after him; be not afflicted at his loss, since
+               you find a Goddess ready to make you happy, and a kingdom which she offers you. To
+               these words Calypso added a long discourse, to show how happy, Ulysses had been with
+               her. She recited his adventures in the cave of Polyphemus the Cyclop, and in the
+               country of Antiphates king of the Lestrigons. She forgot not what happened to him in
+               the island of Circe the daughter of the Sun, and the dangers he was in between Scylla
+               and Charybdis. She described the last storm which Neptune had raised against him when
+               he departed from her; and designing to make Telemachus think that he perished in this
+               tempest, she suppressed his arrival in the island of the Phæcians.
+            </p>
+            <p rendition="#indented">
+               Telemachus, who had at first too hastily abandoned himself to
+               joy at being so well treated by Calypso, at length perceived her artifice, and the
+               wisdom of the counsels which Mentor had just given him. He replied in a few words, O
+               Goddess, excuse my sorrow. I may be more able to relish the happiness you offer me.
+               Permit me now to weep for my father. You know better than I how much he deserves to
+               be lamented.
+            </p>
+            <p rendition="#indented">
+               Calypso, not daring to urge him further at first, pretended even to sympathize with
+               him in his grief, and to pity Ulysses. But the better to know the means of winning
+               the heart of the youth, she asked him how he was wrecked, and by what accidents he
+               was on her coasts. The relation of my misfortunes, said he, would be too tedious. No,
+               no, replied she, I long to know them; make haste to relate them to me. She pressed
+               him a long while: at length, not being able to deny her, he began thus:
+            </p>
+            <p rendition="#indented">
+               I left Ithaca in order to go and inquire of the other kings returned from the siege
+               of Troy news of my father. My mother Penelope's suitors were surprised at my
+               departure; for knowing their treachery, I had taken care to conceal it from them.
+               Nestor, whom I saw at Pylos, nor Menelaus, who received me in a
+            </p>
+            <fw type="footer" place="right">friendly</fw>
+
+            <pb n="8" rend="left" />
+            <fw type="header" rend="bold" place="center">TELEMACHUS</fw>
+            <fw type="header" place="right">Book I.</fw>
+            <p>
+               friendly manner at Lacedæmon, could inform me whether my father was still alive.
+               Weary of living continually in suspence and incertainty, I resolved to go into
+               Sicily, where I had heard that my father had been driven by the winds. But the sage
+               Mentor, whom you see here present, opposed this rash design; representing to me the
+               Cyclops, monstrous giants, who devour men, on the one side; on the other, the fleet
+               of Æneas and the Trojans, said he, are exasperated against all the Greeks, and would
+               take a singular pleasure in shedding the blood of the son of Ulysses. Return,
+               continued he, to Ithaca; perhaps your father, beloved of the Gods, will be there as
+               soon as you; but if the Gods have decreed his destruction, if he must never see his
+               country again, you should at least go to revenge him, to set your mother at liberty,
+               to manifest your wisdom to the world, and to let all Greece see in you a king as
+               worthy of reigning as ever Ulysses himself was. These were salutary words; but I was
+               not wise enough to listen to them; I listened only to my passions. The sage Mentor
+               loved me so well as to attend me in this rash voyage, which I undertook contrary to
+               his counsel; and the Gods permitted me to commit a fault, which was to cure me of my
+               presumption.
+            </p>
+            <p rendition="#indented">
+               Whilst Telemachus was speaking, Calypso gazed at Mentor. She was astonished; and
+               fancied she perceived in him something divine; but she could not clear up the
+               confusion of her thoughts. She remained therefore full of fear and suspicion at the
+               sight of this stranger. And being apprehensive that she should discover her disorder,
+               Go on, said she to Telemachus, and satisfy my curiosity. Telemachus thus resumed his
+               story:
+            </p>
+            <p rendition="#indented">
+               We had for a long time a favourable wind for sailing to Sicily; but at last a black
+               tempest ravished the heavens from our eyes, and we were involved in a profound night.
+               By the flashes of lightning we discovered other ships exposed to the same danger, and
+               presently knew that they were Æneas's fleet; no less formidable to us than the rocks
+               themselves. Then I perceived, but too
+            </p>
+            <fw type="footer" place="right">late,</fw>
+
+            <pb n="9" rend="right" />
+            <fw type="header" rend="bold" place="center">TELEMACHUS</fw>
+            <fw type="header" place="left">Book I.</fw>
+            <p>
+               late, what the heat of my imprudent youth had hindered me from considering with
+               attention. Mentor appeared in this danger not only firm and intrepid, but more gay
+               than usual. it was he who encouraged me, and I was sensible that he inspired me with
+               an invincible fortitude. He gave out all orders with tranquility, while the pilot was
+               at a loss what to do. Dear Mentor, said I, why did I refuse to yield to your
+               counsels? How wretched I am in following my own, at an age when one has no foresight
+               of the future, no experience of the past, nor wisdom to govern the present? O! should
+               we ever escape this tempest, I will mistrust myself as my most dangerous enemy; you,
+               Mentor, shall always rule me.
+            </p>
+            <p rendition="#indented">
+               Mentor replied with a smile, I am far from reproaching you with the fault you have
+               committed; it suffices that you are sensible of it, and that it will teach you
+               another time to curb your desires. But when the danger is over, your presumption
+               perhaps will return. We must however at present support ourselves by out courage.
+               Before we run into danger, we should foresee and apprehend it; but when one is in it,
+               we have nothing to do but despise it. Be therefore the worthy son of Ulysses, and
+               manifest a courage superior to all the dangers which threaten you.
+            </p>
+            <p rendition="#indented">
+               The good-nature and courage of Mentor charmed me; but I was still much more
+               surprised, when I saw with what dexterity he delivered us from the Trojans. The
+               moment the heavens began to clear up, and the Trojans seeing us near could not but
+               have known us, he observed one of their ships, which nearly resembled ours, and had
+               been separated by the storm, whose stern was crowned with certain flowers. He
+               immediately placed garlands of the like flowers upon our stern; he tied them himself
+               with ribbands of the same colour as those of the Trojans, and ordered all our rowers
+               to stoop as close as possible to their benches, that they might not be known by the
+               enemy. In this condition we passed through the midst of their fleet, while they
+               shouted for joy at seeing us, as though they had seen their companions whom they
+               thought they had lost: nay, we were constrained, by the violence of the sea, to sail
+               a
+            </p>
+            <fw type="footer" place="right">good</fw>
+
+            <pb n="10" rend="left" />
+            <fw type="header" rend="bold" place="center">TELEMACHUS</fw>
+            <fw type="header" place="right">Book I.</fw>
+            <p> good while along with them. At last we staid a little behind; and whilst the
+               impetous winds drove them towards Africa, we made our utmost efforts to land by dint<note
+                  place="foot" n="3">A
+                  blow or stroke</note> of rowing on the neighbouring coasts of Sicily. </p>
+            <p rendition="#indented">
+               We indeed arrived there, but what we fought was no less fatal than the fleet which
+               occasioned our flight. We had found on this coast of Sicily other Trojans, and
+               consequently enemies of the Greeks. Here reigned old Acestes, who sprung from Troy.
+               We had hardly reached the shore, but the inhabitants, supporting us either other
+               people of the island who had taken arms to surprise them, or foreigners who came to
+               seize their lands, burn our vessel in the first transport of their rage, and
+               murdered all our companions; reserving only Mentor and myself to present us to
+               Acestes, that he might learn from us what were our designs, and from whence we came.
+               We entered the city with our hands tied behind our backs, and our death was deferred
+               only that we might serve for a sight to a cruel people, when they should know that we
+               were Greeks.
+            </p>
+            <p rendition="#indented">
+               We were immediately presented to Acestes, who holding his golden scepter in his hand,
+               was administering justice among the people, and preparing for a grand sacrifice. He
+               asked us, in a stern voice, Of what country we were, and the occasion of our voyage?
+               Mentor immediately replied, and said to him, We come from the coast of Great
+               Hesperia, and our country is not far from thence. Thus he avoided saying that we were
+               Greeks. But Acestes, without hearing any thing more, and taking us for foreigners who
+               concealed our design, ordered us to be sent into a neighbouring forest, to serve as
+               slaves under those who attended his flocks. This condition appearing to me more
+               intolerable than death, O king, cried I, put us to death rather than treat us thus
+               unworthily. Know that I am Telemachus, the son of the sage Ulysses, king of the
+               Ithacans; I am seeking my father in every sea; if I can neither find him, nor return
+               to my native country, nor avoid slavery, take from me a life which I cannot support.
+            </p>
+            <p rendition="#indented">
+               I had hardly uttered these words, when all the enraged people cried out, That they
+               ought to put to death
+            </p>
+            <fw type="footer" place="right">the</fw>
+
+            <pb n="11" rend="right" />
+            <fw type="header" rend="bold" place="center">TELEMACHUS</fw>
+            <fw type="header" place="left">Book I.</fw>
+            <p>
+               the son of the cruel Ulysses, whose artifices had overthrown the city of Troy. O son
+               of Ulysses, said Acestes to me, I cannot refuse your blood to the manes of the many
+               Trojans, whom your father has sent to the banks of the black Cocytus; you, and he
+               who conducts you, shall die. At the same time and old man of the company advised the
+               king to sacrifice us on the tomb of Anchises. Their blood, said he, will be grateful
+               to the shade of that hero; Æneas himself, when he shall hear of such a sacrifice,
+               will rejoice to see how much you love what of all things in the world was the dearest
+               to him. All the people applauded this proposition, and thought of nothing but of
+               sacrificing us. They were already leading us to the tomb of Anchises; they had there
+               erected two altars, on which the holy fire was kindled; the knife which was to slay
+               us was before our eyes; we were crowned with flowers; no pity could save our lives;
+               our fate was determined; when Mentor, calmly desiring leave to speak to the king,
+               said to him:
+            </p>
+            <p rendition="#indented">
+               O Acestes, if the misfortunes of the youthful Telemachus, who never bore arms against
+               the Trojans, cannot move you; at least let your own interest move you. The knowledge
+               I have obtained of presages and the will of the Gods, informs me, that before three
+               days are elapsed, you will be attacked by barbarous nations, which are coming like a
+               torrent from the tops of the mountains to overflow your city, and to ravage all your
+               country. Make haste to prevent them; put your subjects under arms, and delay not a
+               moment to drive within your walls the rich flocks and herds which you have in the
+               fields. If my prediction is false, you will be at liberty to sacrifice us in three
+               days; if, on the contrary, it is true, you will remember that you ought not to take
+               away the life of those to whom you owe your own.
+            </p>
+            <p rendition="#indented">
+               Acestes was astonished at these words, which Mentor pronounced with a confidence
+               which he had never found in any man. I plainly perceive, O stranger, replied he, that
+               the Gods, who have allotted you so small a portion of the gifts of fortune, have
+               given you a wisdom which is more valuable than the greatest prosperity. At the same
+               time he put off the sacrifice, and immediately gave
+            </p>
+            <fw type="footer" place="right">the</fw>
+
+            <pb n="12" rend="left" />
+            <fw type="header" rend="bold" place="center">TELEMACHUS</fw>
+            <fw type="header" place="right">Book I.</fw>
+            <p>
+               the orders which were necessary to prevent the attack, with which Mentor had
+               threatened him. Nothing was seen on every side but trembling women, men bowed down
+               with age, and little children with tears in their eyes, retiring into the city. Herds
+               of lowing oxen and flocks of bleating sheep came in crowds, quitting their fat
+               pastures, and unable to find stabling enough to receive them. There was in all parts
+               a confused noise of men, who pressed upon and could not understand each other, who
+               took in this confusion a stranger for their friend, and who run without knowing
+               whither they were going. But the chiefs of the city, conceiting themselves wiser than
+               the rest, imagined that Mentor was an impostor, who had made a false prediction to
+               save his life.
+            </p>
+            <p rendition="#indented">
+               Before the end of the third day, whilst they were full of these thoughts, there were
+               seen, on the descent of the neighbouring mountains, a curling cloud of dust; then
+               they perceived an innumerable host of armed barbarians. They were the Hymerians, a
+               savage people, with the nations which inhabit the Nebrodian mountains, and the top of
+               Agragas, where a winter reigns which was never softened by the Zephirs. They who had
+               despised Mentor's prediction, lost their slaves and their flocks. The king said to
+               Mentor, I forget that you are Greeks; our enemies are become our faithful friends;
+               the Gods have sent you to save us; I do not expect less from you valour than from the
+               wisdom of your counsels; make haste to succour us.
+            </p>
+            <p rendition="#indented">
+               Mentor discovers in his eyes an intrepidity which astonishes the fiercest warriors.
+               He takes a buckler, a helmet, a sword and lance; he marshals the soldiers of Acestes;
+               he marches at their head, and advances in good order towards the enemy. Acestes,
+               though full of courage, can by reason of his age only follow him at a distance. I
+               follow him closer, but cannot equal his valour. In the battle his cuirass resembled
+               the immortal Ægis. Death ran from rank to rank wherever his blows descended: so a
+               Numidian lion, stung with hunger, falls on a flock of feeble sheep, he rends, he
+               slays, he swims in blood, and the sheperds, in-
+            </p>
+            <fw type="footer" place="right">stead</fw>
+
+            <pb n="13" rend="right" />
+            <fw type="header" rend="bold" place="center">TELEMACHUS</fw>
+            <fw type="header" place="left">Book I.</fw>
+            <p>
+               stead of succouring the flock, fly trembling to escape his fury.
+            </p>
+            <p rendition="#indented">
+               The Barbarians, who hoped to surprise the city, were themselves surprised and thrown
+               into disorder. The subjects of Acestes, animated by Mentor's words and valour, felt a
+               vigour of which they thought themselves incapable. With my lance I killed the son of
+               the enemy's king; he was of my age, but he was taller than I; for these people are
+               descended from a race of giants of the same origin as the Cyclops. He despised so
+               weak an adversary as me. But without being alarmed at his prodigious strength or
+               savage brutal air, I thrust my lance against his breast, and made him as he expired
+               vomit forth torrents of black blood. He had like to have crushed me in his fall. The
+               clattering of his arms resounded in the mountains. I took the spoils, and returned to
+               find Acestes. Mentor, having intirely routed the enemy, cut them in pieces, and
+               pursued the fugitives even into the woods.
+            </p>
+            <p rendition="#indented">
+               This so unexpected success made Mentor looked upon as a man beloved and inspired by
+               the Gods. Acestes, touched with gratitude, told us, that he should be in the greatest
+               fear for us, if Æneas's fleet should return to Sicily. He gave us a ship to return
+               without delay to our own country, loaded us with presents, and pressed us to depart,
+               in order to prevent the evils he foresaw. But not caring to give us either a pilot or
+               rowers of his own nation, for fear they should be too much exposed upon the coast of
+               Greece, he provided for us some Phœnician merchants, who, trading with all the
+               nations of the world, had nothing to fear, and were to bring back the vessel to
+               Acestes, when the had left us in Ithaca: But the Gods, who sport with the designs of
+               men, reserved us for other misfortunes.
+            </p>
+            <l rend="bold italic large center">End of the First Book</l>
+         </div>
+      </body>
+   </text>
+</TEI>
