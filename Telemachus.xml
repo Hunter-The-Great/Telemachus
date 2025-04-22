@@ -158,8 +158,10 @@ type="application/xml"
                poetry, and of all the sciences which belong to the imagination: It is the weakness
                of man which makes these sciences necessary. The plain and unchangeable beauty of
                virtue does not always affect him; it is not sufficient to show him truth; she must
-               be painted amiable <note n="(a)" place="foot">omne tulit punctum qui miscuit utile
-               dulci, lectorem delectando pariterque monendo. Hor. Art. Poet</note>
+               be painted amiable <note n="(a)" place="foot">Omne tulit punctum qui miscuit utile
+               dulci, Lectorem delectando pariterque monendo. Hor. Art. Poet<note n="3" place="foot">"He
+               has won every vote who has blended profit and pleasure, at once delighting and
+               instructing the reader". Horace, Ars Poetica</note></note>
                <l />
             </p>
             <p rendition="#indented">
@@ -337,7 +339,7 @@ type="application/xml"
                were seen hills and mountains, which lost themselves in the clouds, and formed, by
                their fantastic figures, as delightful an horizon as the eye could wish to behold.
                The neighbouring mountains, where covered with verdant vine branches, hanging in
-               festoons<note place="foot" n="3">a chain or garland of flowers, leaves, or
+               festoons<note place="foot" n="4">a chain or garland of flowers, leaves, or
                   ribbons, hung in a curve as a
                   decoration.</note>; the grapes, brighter than purple, could not conceal themselves
                under the leaves, and the vine was over-loaded with its fruit. The fig, the olive,
@@ -552,7 +554,7 @@ type="application/xml"
             <fw type="header" place="right">Book I.</fw>
             <p> good while along with them. At last we staid a little behind; and whilst the
                impetous winds drove them towards Africa, we made our utmost efforts to land by dint<note
-                  place="foot" n="4">A
+                  place="foot" n="5">A
                   blow or stroke</note> of rowing on the neighbouring coasts of Sicily. </p>
             <p rendition="#indented">
                We indeed arrived there, but what we fought was no less fatal than the fleet which
