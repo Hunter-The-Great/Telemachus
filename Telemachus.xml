@@ -127,10 +127,10 @@ type="application/xml"
       <body>
          <div>
             <pb style="hidden" n="i" />
-            <!-- TODO: top decoration -->
             <head />
 
             <figure place="top" rend="center" type="printerMark">
+               <figDesc>A printer's mark</figDesc>
                <graphic
                   url="https://files.lowryb.sbs/api/public/dl/Bv4JpWw5/Telemachus/539CE0AC-0D69-495D-9FDA-12D51FB6AF89_4_5005_c.jpeg"></graphic>
             </figure>
@@ -158,8 +158,8 @@ type="application/xml"
                poetry, and of all the sciences which belong to the imagination: It is the weakness
                of man which makes these sciences necessary. The plain and unchangeable beauty of
                virtue does not always affect him; it is not sufficient to show him truth; she must
-               be painted amiable <note n="(a)" place="foot">Omne tuli punctum, qui miscuit utile
-               dulci, Lectorem delectando, paritorque menendo. Hor. Art. Poet</note>
+               be painted amiable <note n="(a)" place="foot">omne tulit punctum qui miscuit utile
+               dulci, lectorem delectando pariterque monendo. Hor. Art. Poet</note>
                <l />
             </p>
             <p rendition="#indented">
@@ -194,9 +194,9 @@ type="application/xml"
             </p>
          </div>
          <pb n="1" style="hidden" />
-         <!-- TODO: top bar decoration -->
          <div>
             <figure place="top" rend="center" type="printerMark">
+               <figDesc>A printer's mark</figDesc>
                <graphic
                   url="https://files.lowryb.sbs/api/public/dl/qaTVeHdE/Telemachus/DD10511B-3610-4D60-98C9-3615CD1B91CF_4_5005_c.jpeg">
                </graphic>
