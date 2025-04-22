@@ -85,8 +85,11 @@ type="application/xml"
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+         <styleDefDecl scheme="css"
+            schemeVersion="2.1" />
          <tagsDecl>
             <rendition xml:id="indented" scheme="css">text-indent: 3em;</rendition>
+            <rendition xml:id="unindented" scheme="css">text-indent: 0;</rendition>
             <rendition xml:id="centered" scheme="css">text-align: center;</rendition>
          </tagsDecl>
       </encodingDesc>
@@ -126,10 +129,16 @@ type="application/xml"
             <pb style="hidden" n="i" />
             <!-- TODO: top decoration -->
             <head />
+
+            <figure place="top" rend="center" type="printerMark">
+               <graphic
+                  url="https://files.lowryb.sbs/api/public/dl/Bv4JpWw5/Telemachus/539CE0AC-0D69-495D-9FDA-12D51FB6AF89_4_5005_c.jpeg"></graphic>
+            </figure>
             <head rend="center">A</head>
-            <head rend="center">DISCOURSE<note n="*" place="foot">his discourse has been
-                  revised, altered and improved in many plaves, according to corrections
-                  communicated by Mr. Ramsay, who is the author of it.</note></head>
+            <head rend="center">DISCOURSE<note n="*" place="foot">his discourse has been revised,
+               altered and improved in many places, according to corrections communicated by Mr.
+               Ramsay<note n="2" place="foot">Potentially Andrew Michael Ramsay, a Scottish writer
+               who was close to Fénelon, lived 1686-1743</note>, who is the author of it.</note></head>
             <head rend="center">OF</head>
             <head rend="center">EPIC POETRY,</head>
             <head rend="center">AND OF THE</head>
@@ -174,10 +183,11 @@ type="application/xml"
                one, the actors speak; in the other, the poet makes the narration. <l />
             </p>
             <p rendition="#indented">
-               <note type="inset" place="left">The definition and division of epic poetry</note> The
-               epic poem may be define, <hi rend="italic">A fable related by a poet to raise the
-               admiration, and inspire the love of virtue, by the representation of the action of
-                  a hero favoured of heaven, who executes a great design by triumphing over all
+               <note type="inset" place="left">The vision of epic
+                  poetry</note> The epic poem may be define, <hi rend="italic">A fable related by a
+               poet to raise the
+                  admiration, and inspire the love of virtue, by the representation of the action of
+               a hero favoured of heaven, who executes a great design by triumphing over all
                obstacles that oppose it. There are therefore three things in the Epopœa, the action,
                the moral, and the poetry.</hi>
                <l />
@@ -186,13 +196,18 @@ type="application/xml"
          <pb n="1" style="hidden" />
          <!-- TODO: top bar decoration -->
          <div>
+            <figure place="top" rend="center" type="printerMark">
+               <graphic
+                  url="https://files.lowryb.sbs/api/public/dl/qaTVeHdE/Telemachus/DD10511B-3610-4D60-98C9-3615CD1B91CF_4_5005_c.jpeg">
+               </graphic>
+            </figure>
             <head />
             <head rend="center">THE</head>
             <head rend="center">ADVENTURES</head>
             <head rend="center">OF</head>
             <head rend="center">TELEMACHUS,</head>
             <head rend="center">Son of ULYSSES.</head>
-            <!-- TODO: line -->
+            <figure></figure>
             <head rend="center">BOOK the FIRST</head>
             <!-- TODO: line -->
             <p>
@@ -322,7 +337,7 @@ type="application/xml"
                were seen hills and mountains, which lost themselves in the clouds, and formed, by
                their fantastic figures, as delightful an horizon as the eye could wish to behold.
                The neighbouring mountains, where covered with verdant vine branches, hanging in
-               festoons<note place="foot" n="2">a chain or garland of flowers, leaves, or
+               festoons<note place="foot" n="3">a chain or garland of flowers, leaves, or
                   ribbons, hung in a curve as a
                   decoration.</note>; the grapes, brighter than purple, could not conceal themselves
                under the leaves, and the vine was over-loaded with its fruit. The fig, the olive,
@@ -537,7 +552,7 @@ type="application/xml"
             <fw type="header" place="right">Book I.</fw>
             <p> good while along with them. At last we staid a little behind; and whilst the
                impetous winds drove them towards Africa, we made our utmost efforts to land by dint<note
-                  place="foot" n="3">A
+                  place="foot" n="4">A
                   blow or stroke</note> of rowing on the neighbouring coasts of Sicily. </p>
             <p rendition="#indented">
                We indeed arrived there, but what we fought was no less fatal than the fleet which
